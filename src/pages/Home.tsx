@@ -1,15 +1,21 @@
-/** @jsxImportSource @emotion/react */
-import styled from '@emotion/styled';
+import AboutMe from '../components/aboutMe/AboutMe';
+import Contact from '../components/contact/Contact';
+import Footer from '../components/footer/Footer';
+import Nav from '../components/nav/Nav';
+import Project from '../components/project/Project';
+import Stacks from '../components/stacks/Stacks';
 
 const Home = () => {
-	return <Layout>안녕</Layout>;
+	return (
+		<>
+			<Nav />
+			<AboutMe />
+			<Stacks />
+			<Project />
+			<Contact />
+			<Footer />
+		</>
+	);
 };
 
 export default Home;
-
-const Layout = styled.div`
-	${({ theme }) => theme.variables.flex()}
-	height: 30vh;
-	background: pink;
-	color: ${({ theme }) => theme.colors.white};
-`;

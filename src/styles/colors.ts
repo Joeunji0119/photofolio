@@ -7,6 +7,11 @@ export const colors: Theme = {
 	grey2: '#bcbcbd',
 	grey3: '#c9c9c9',
 	grey4: 'grey',
-	blue: '#74acfc',
-	blue2: '#1575fb',
+	blue1: '#f1f6fe',
+	blue2: '#e3eefe',
+	blue3: '#d5e6fe',
+	blue4: '#c7ddfd',
+	blue5: '#b9d5fd',
+	blue6: '#abcdfd',
+	blue7: '#9dc4fc',
 };

@@ -6,10 +6,9 @@ export const global = css`
 		box-sizing: border-box;
 		margin: 0;
 	}
-	body > div {
+	body {
 		width: 100vw;
-		overflow-x: hidden;
-		overflow-y: hidden;
+		/* overflow-y: hidden; */
 	}
 	a {
 		color: inherit;
