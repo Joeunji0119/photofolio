@@ -1,10 +1,9 @@
-import { Layout } from '../../common/CommonStyled';
-import { colors } from '../../styles/colors';
+import { Layout, Title } from '../../common/CommonStyled';
 
 const Contact = () => {
 	return (
-		<Layout color={colors.blue4}>
-			<div>contact</div>
+		<Layout>
+			<Title itemRef='320%'>contact</Title>
 		</Layout>
 	);
 };

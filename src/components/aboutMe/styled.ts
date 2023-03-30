@@ -2,7 +2,11 @@
 import styled from '@emotion/styled';
 
 export const AboutMeLayout = styled.section`
-	${({ theme }) => theme.variables.layout()}
+	${({ theme }) => theme.variables.layout('row', 's')}
+`;
+
+export const AboutMeContainer = styled.div`
+	${({ theme }) => theme.variables.flex()}
 `;
 
 export const Image = styled.img`

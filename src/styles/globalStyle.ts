@@ -8,6 +8,7 @@ export const global = css`
 	}
 	body {
 		width: 100vw;
+		overflow-x: hidden;
 		/* overflow-y: hidden; */
 	}
 	a {
