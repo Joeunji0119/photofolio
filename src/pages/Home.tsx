@@ -2,7 +2,10 @@ import AboutMe from '../components/aboutMe/AboutMe';
 import Contact from '../components/contact/Contact';
 import Footer from '../components/footer/Footer';
 import Nav from '../components/nav/Nav';
-import Project from '../components/project/Project';
+import Catbow from '../components/project/catbow/Catbow';
+import Koda from '../components/project/koda/Koda';
+import Winnerest from '../components/project/winnerest/Winnerest';
+
 import Stacks from '../components/stacks/Stacks';
 
 const Home = () => {
@@ -11,7 +14,9 @@ const Home = () => {
 			<Nav />
 			<AboutMe />
 			<Stacks />
-			<Project />
+			<Catbow />
+			<Koda />
+			<Winnerest />
 			<Contact />
 			<Footer />
 		</>

@@ -6,4 +6,9 @@ const Layout = ({ children }: { children: JSX.Element }) => {
 
 export default Layout;
 
-const ComponentLayout = styled.div``;
+export const ComponentLayout = styled.div`
+	${({ theme }) => theme.variables.flex('column', 'space-evenly', 'center')}
+	height: 100vh;
+	background: ${({ color }) => color};
+	color: ${({ theme }) => theme.colors.black};
+`;

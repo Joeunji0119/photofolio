@@ -5,12 +5,11 @@ import * as S from './styled';
 
 const AboutMe = () => {
 	return (
-		// <S.AboutMeLayout>
 		<Layout color={colors.blue1}>
 			<S.Image src='./images/IMG_3517.jpeg' />
-			<div>front-end Dev</div>
-			<div>조은지</div>
-			{/* </S.AboutMeLayout> */}
+			<S.Info>
+				front-end Dev <br /> 조은지
+			</S.Info>
 		</Layout>
 	);
 };

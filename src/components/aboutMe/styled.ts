@@ -11,3 +11,9 @@ export const Image = styled.img`
 	object-fit: cover;
 	border-radius: 100%;
 `;
+
+export const Info = styled.h1`
+	padding: 0 30px;
+	font-size: 50px;
+	font-weight: 800;
+`;

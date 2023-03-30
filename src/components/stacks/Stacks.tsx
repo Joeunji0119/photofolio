@@ -1,10 +1,19 @@
-import { Layout } from '../../common/CommonStyled';
-import { colors } from '../../styles/colors';
+import { Card } from '../../common/Card';
+import { Layout, Title } from '../../common/CommonStyled';
+import * as S from './styled';
 
 const Stacks = () => {
 	return (
-		<Layout color={colors.blue2}>
-			<div>stack</div>
+		<Layout>
+			<Title itemRef='120%'>⚒️ Stacks</Title>
+			<S.CardsArea>
+				<Card size='large'>
+					<div>asdfa</div>
+				</Card>
+				<Card size='large'>
+					<div>asdfa</div>
+				</Card>
+			</S.CardsArea>
 		</Layout>
 	);
 };

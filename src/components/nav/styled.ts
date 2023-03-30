@@ -6,6 +6,7 @@ export const NavLayout = styled.nav`
 	background: ${({ theme }) => theme.colors.white};
 	position: sticky;
 	top: 0;
+	z-index: 30;
 `;
 
 export const CatagoriesLayout = styled.div`
