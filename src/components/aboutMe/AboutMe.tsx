@@ -13,7 +13,7 @@ const AboutMe = () => {
 					front-end Dev <br /> 조은지
 				</S.Info>
 
-				<Card size='large'>afd</Card>
+				<Card size='medium'>afd</Card>
 			</S.AboutMeContainer>
 		</Layout>
 	);

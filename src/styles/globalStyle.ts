@@ -7,8 +7,8 @@ export const global = css`
 		margin: 0;
 	}
 	body {
-		width: 100vw;
-		overflow-x: hidden;
+		/* width: 100vw; */
+		/* overflow-x: hidden; */
 		/* overflow-y: hidden; */
 	}
 	a {

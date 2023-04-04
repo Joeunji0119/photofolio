@@ -7,24 +7,23 @@ interface LayoutProps {
 }
 
 interface Size {
-	width: string;
-	height: string;
+	width?: string;
+	height?: string;
 	margin?: string;
 }
 
 const sizes: Record<string, Size> = {
 	large: {
-		width: '800px',
-		height: '500px',
+		width: '80vw',
+		height: '80%',
+		margin: '3%',
 	},
 	medium: {
 		width: '500px',
 		height: '500px',
 	},
 	small: {
-		width: '80vw',
 		height: '500px',
-		margin: '3%',
 	},
 };
 

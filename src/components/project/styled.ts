@@ -8,9 +8,18 @@ export const ProjectTitle = styled.div`
 	font-weight: 800;
 `;
 
+export const ImageSize = styled.div`
+	height: 500px;
+	object-fit: contain;
+`;
+
+export const BannerArea = styled.div`
+	${({ theme }) => theme.variables.flex('row', 'flex-start', 'center')}
+`;
+
 export const projectImg = styled.img`
-	height: 70%;
-	width: auto;
+	height: auto;
+	width: 100%;
 `;
 
 export const ProjectDescription = styled.div`
@@ -18,7 +27,19 @@ export const ProjectDescription = styled.div`
 	${({ theme }) => theme.variables.flex()}
 `;
 
-export const RightArrow = styled.div`
-	font-size: 30px;
-	color: red;
+export const LeftArrow = styled.div`
+	font-size: 50px;
+	color: ${({ theme }) => theme.colors.blue7};
+	position: absolute;
+	top: 250%;
+	left: 3%;
+	cursor: pointer;
+	:hover {
+		font-size: 60px;
+	}
+`;
+
+export const RightArrow = styled(LeftArrow)`
+	left: 88%;
+	right: 3%;
 `;

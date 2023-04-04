@@ -6,7 +6,6 @@ export const Layout = styled.div`
 	height: 100vh;
 	background: ${({ color }) => color};
 	color: ${({ theme }) => theme.colors.black};
-	/* overflow-x: auto; */
 `;
 
 export const Title = styled.div`
@@ -20,6 +19,5 @@ export const Title = styled.div`
 export const CardsArea = styled.div`
 	width: 100%;
 	margin-top: 10%;
-	${({ theme }) => theme.variables.flex('row', 'space-evenly', 'center')}
-	align-content: flex-start;
+	${({ theme }) => theme.variables.flex('row', '', '')}
 `;
